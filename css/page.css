@@ -1,0 +1,34 @@
+.hero__wrapper {
+  margin: 0 auto;
+  max-width: 1220px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+@media (max-width: 360px) {
+  .hero__wrapper {
+    flex-direction: column;
+  }
+
+  .section__video > img {
+    max-width: 316px;
+  }
+}
+.h1__hero_gradient {
+  background: linear-gradient(
+    93deg,
+    #d77be5 9.26%,
+    #be63e5 42.32%,
+    #6c38cc 104.58%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn_wrapper {
+  display: flex;
+  gap: 32px;
+  margin-top: 32px;
+}

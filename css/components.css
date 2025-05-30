@@ -1,0 +1,55 @@
+.section_light {
+  background: var(--color-bg-grey);
+}
+
+.h1__hero {
+  color: var(--color-text);
+  font-family: 'Fira Sans';
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 54px */
+}
+
+.btn {
+  color: var(--color-text);
+  font-family: 'Fira Sans';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  padding: 16px 32px;
+  border-radius: 10px;
+  border: 1px solid var(--color-stroke, #4d5064);
+}
+
+.btn-primary {
+  background: var(--color-btn);
+}
+
+.btn_ghost {
+  background: none;
+}
+
+@media (max-width: 360px) {
+  .h1__hero {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+  }
+  .btn {
+    padding: 12px 24px;
+    align-items: flex-start;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    flex-shrink: 0;
+    gap: 10px;
+  }
+
+  .section {
+    margin-top: 20px;
+  }
+}

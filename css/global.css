@@ -6,6 +6,10 @@
   --color-text: #fafafa;
   --color-link-color: #afb2bf;
   --color-stroke: #4d5064;
+  --color-footer: #101114;
+  --Pink: #e47ad5;
+
+  --layout-width: 1172px;
 }
 
 * {

@@ -54,3 +54,18 @@
     margin-top: 21px;
   }
 }
+
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.icon-wrapper-icon {
+  width: 46px;
+  height: 46px;
+  flex-shrink: 0;
+  border: 1px solid var(--color-stroke);
+  border-radius: 8px;
+  padding: 11px;
+}

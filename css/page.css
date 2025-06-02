@@ -6,6 +6,13 @@
   justify-content: space-between;
   gap: 40px;
 }
+.section__hero {
+  margin-bottom: 57px;
+}
+.section__video > img {
+  max-width: 540px;
+  margin-bottom: 50px;
+}
 @media (max-width: 360px) {
   .hero__wrapper {
     flex-direction: column;

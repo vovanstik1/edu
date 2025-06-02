@@ -48,8 +48,9 @@
     flex-shrink: 0;
     gap: 10px;
   }
-
-  .section {
-    margin-top: 20px;
+  .btn_wrapper {
+    display: flex;
+    gap: 14px;
+    margin-top: 21px;
   }
 }

@@ -10,7 +10,9 @@
   align-items: center;
   padding: 40px 0px;
 }
-
+.header__wrapper > a {
+  margin-bottom: 20px;
+}
 .header__login {
   display: flex;
   gap: 8px;

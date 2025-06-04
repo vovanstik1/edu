@@ -13,6 +13,7 @@
   max-width: 540px;
   margin-bottom: 50px;
 }
+
 @media (max-width: 360px) {
   .hero__wrapper {
     flex-direction: column;
@@ -22,6 +23,13 @@
     max-width: 316px;
   }
 }
+
+@media (max-width: 860px) {
+  .hero__wrapper {
+    flex-direction: column;
+  }
+}
+
 .h1__hero_gradient {
   background: linear-gradient(
     93deg,
@@ -99,8 +107,17 @@
   padding: 34px 32px;
 }
 
+@media (max-width: 360px) {
+  .section__post {
+    flex-direction: column;
+  }
+
+  .post_btn {
+    width: 100%;
+  }
+}
 .icon-wrapper_section {
-  margin: 32px 0 48px 0;
+  margin: 32px 24px 48px 24px;
 }
 .section__post_main {
   max-width: 775px;
@@ -165,4 +182,18 @@
   justify-self: center;
   align-self: center;
   margin: 48px 0 100px 0;
+}
+
+.card_wrapper {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 70px;
+}
+
+.cousecard {
+  width: 360px;
+  height: 482px;
+  border-radius: 10px;
+  background: var(--Gray-dark, #1e1f29);
 }

@@ -39,6 +39,7 @@
     line-height: 120%;
   }
   .btn {
+    display: inline-block;
     padding: 12px 24px;
     align-items: flex-start;
     font-size: 18px;
@@ -47,6 +48,7 @@
     line-height: 120%;
     flex-shrink: 0;
     gap: 10px;
+    text-align: center;
   }
   .btn_wrapper {
     display: flex;
@@ -68,4 +70,25 @@
   border: 1px solid var(--color-stroke);
   border-radius: 8px;
   padding: 11px;
+}
+.course_btn {
+  display: flex;
+  padding: 8px 16px;
+  align-items: flex-start;
+  gap: 16px;
+  background: var(--Black, #16171d);
+
+  color: var(--White, #fafafa);
+  text-align: center;
+
+  /* Button */
+  font-family: 'Fira Sans';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 21.6px */
+}
+
+.course_btn_active {
+  background: var(--Violet, #6c38cc);
 }

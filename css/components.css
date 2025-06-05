@@ -75,7 +75,7 @@
   display: flex;
   padding: 8px 16px;
   align-items: flex-start;
-  gap: 16px;
+  gap: 4px;
   background: var(--Black, #16171d);
 
   color: var(--White, #fafafa);
@@ -91,4 +91,79 @@
 
 .course_btn_active {
   background: var(--Violet, #6c38cc);
+}
+
+.cousecard__header {
+  color: var(--White, #fafafa);
+
+  /* H3 Desktop */
+  font-family: 'Fira Sans';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 28.8px */
+}
+
+.cousecard__main {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 24px;
+}
+
+.cousecard__autor {
+  color: var(--Gray, #afb2bf);
+
+  /* Body 18 120% */
+  font-family: 'Fira Sans';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 21.6px */
+}
+
+.cousecard__time {
+  color: var(--White, #fafafa);
+
+  /* Body 16 120% */
+  font-family: 'Fira Sans';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 19.2px */
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.cousecard__btn_wrapper {
+  display: flex;
+  gap: 12px;
+}
+
+.card_btn {
+  border-radius: 17px;
+  border: 1px solid var(--Gray-stroke, #4d5064);
+  background-color: var(--Gray-dark, #1e1f29);
+}
+
+.cousecard__prise {
+  border-radius: 0px 0px 10px 10px;
+  background: var(--Violet-dark, #2e2d3d);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 24px;
+}
+
+.cousecard__prise_price {
+  color: var(--White, #fafafa);
+
+  /* H4 Desktop */
+  font-family: 'Fira Sans';
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 26.4px */
 }

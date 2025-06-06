@@ -197,3 +197,10 @@
   border-radius: 10px;
   background: var(--Gray-dark, #1e1f29);
 }
+
+.school_wrapper {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 70px;
+}

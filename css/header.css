@@ -3,7 +3,7 @@
 }
 
 .header__wrapper {
-  max-width: calc(1220px);
+  max-width: var(--layout-width);
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -76,6 +76,7 @@
 
   .header__logo {
     max-width: 174px;
+    align-items: center;
   }
   .header__wrapper,
   .hero__wrapper {

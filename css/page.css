@@ -1,6 +1,6 @@
 .hero__wrapper {
   margin: 0 auto;
-  max-width: 1220px;
+  max-width: var(--layout-width);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -192,8 +192,8 @@
 }
 
 .cousecard {
-  width: 360px;
-  height: 482px;
+  /* width: 360px;
+  height: 482px; */
   border-radius: 10px;
   background: var(--Gray-dark, #1e1f29);
 }
@@ -203,4 +203,70 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 70px;
+}
+
+@media (max-width: 360px) {
+  .card_wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+  }
+
+  .school_wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+  }
+
+  .btn_wrapper {
+    overflow: hidden;
+  }
+
+  .section_wrapper {
+    padding: 0 24px;
+  }
+
+  .cousecard {
+    max-width: 312px;
+  }
+  .cousecard > img {
+    max-width: 312px;
+  }
+
+  .school_card {
+    max-width: 312px;
+  }
+
+  .section__header {
+    margin-top: 40px;
+  }
+
+  .section__header_title {
+    color: var(--Pink, #e47ad5);
+
+    /* Body 16 120% */
+    font-family: 'Fira Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 19.2px */
+  }
+
+  .section__header_title-small {
+    color: var(--White, #fafafa);
+
+    /* H1 Mobile */
+    font-family: 'Fira Sans';
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 40.8px */
+  }
+
+  .section__hero {
+    margin-bottom: 57px;
+    gap: 0;
+  }
+
+  .cousecard__prise {
+    gap: 20px;
+  }
 }
